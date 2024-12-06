@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    margin: 5px;
+    padding: 5px;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+}
+li.nav{
+    font-size: 20px;
+}
+li.login{
+    margin-left: 0px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(31, 65, 46);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+div.coffee{
+    background-image: url("/project/assets/coffee.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-right: 200px ;
+    margin-right: 20px;
+    opacity: 0.7;
+   
+}
+div.coffee:hover{
+    opacity: 1;
+    transition: ease 1000ms;
+}
+div.coldbrew:hover{
+    opacity: 1;
+    transition: ease 1000ms;
+}
+div.milktea:hover{
+    opacity: 1;
+    transition: ease 1000ms;
+}
+div.coldbrew{
+    background-image: url("/project/assets/coldbrew.jpg");
+    padding: 50px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 155px;
+    margin-right: 20px;
+    opacity: 0.7;
+}
+div.milktea{
+    background-image: url("/project/assets/milktea.jpg");
+    padding: 50px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-right: 200px;
+    opacity: 0.7;
+}
+h1.prod{
+    color:rgb(2, 196, 51);
+    
+}
+div{
+    display: inline-block ;
+    padding-right: 50;
+}
+
+header.coffee{
+    background-color: rgb(166, 236, 190);
+}
+div.blackcoffee{
+    background-image:url("/project/assets/black_coffee.jpg");
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    height: 150px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+div.order{
+    background-color: rgb(232, 238, 234);
+    scale: 0.;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(15, 15, 15);
+    border-width: 2px;
+    margin-left: 8px;
+    font-size: medium;
+}
+.order{
+    text-decoration: none;
+    color: black;
+}
+div.latte{
+    background-image:url("/project/assets/latte.jpg");
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    height: 150px;
+}
+
+div.Cappuccino{
+    background-image:url("/project/assets/cappuccino.jpg");
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    height: 150px;
+}
+
+div.americano{
+    background-image:url("/project/assets/americano.jpg");
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    height: 150px;
+}
+div.caramel{
+    background-image:url("/project/assets/caramelmacchiato.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    margin-left: 20px;
+    height: 150px;
+}
+div.milk{
+    background-image:url("/project/assets/Milkychoco.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    height: 150px;
+}
+
+div.spanish{
+    background-image:url("/project/assets/spanish.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    height: 150px;
+}
+
+div.classic{
+    background-image:url("/project/assets/coffee_coldbrew.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    margin:20px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 210px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+div.Okinawa{
+    background-image:url("/project/assets/okinawa.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+
+div.winter{
+    background-image:url("/project/assets/Wintermelon.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+div.choco{
+    background-image:url("/project/assets/choco.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    background-position: 02;
+}
+div.jasmine{
+    background-image:url("/project/assets/jasmine.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top: 20px;
+    padding: 50px;
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 200px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+
+h3{
+    color: rgb(18, 151, 18);
+}
+
+h4{
+    color: rgb(55, 197, 42);
+}
+
+h5{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+h3.okinawa{
+    color: rgb(0, 0, 0);
+}
+
+h4.okinawa{
+    color: rgb(0, 0, 0);
+}
+.order-button a{
+    text-decoration-line: none;
+    color: white;
+}
